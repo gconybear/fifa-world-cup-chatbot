@@ -36,7 +36,8 @@ Note that steps 1,2,3 are done only once offline, and step 4 is what takes place
 clone repo, and then: 
 
 1. generate OpenAI API key
-2. add your OpenAI API key to `streamlit/secrets.toml` like `OPEN_AI_KEY="<KEY>"`
-3. in terminal, `streamlit run app.py` 
+2. in terminal, `mkdir streamlit/` then `touch streamlit/secrets.toml`
+3. add your OpenAI API key to `streamlit/secrets.toml` like `OPEN_AI_KEY="<KEY>"`
+4. in terminal, `streamlit run app.py` 
 
 
