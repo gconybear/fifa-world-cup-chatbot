@@ -10,7 +10,7 @@ Tailored specifically for World Cup questions (entirety of Wikipedia world-cup r
 
 Wikipedia dataset can be found in `data/world_cup_data.csv` and embeddings (python dict) in `data/world_cup_embeddings.pkl`
 
-Most of the process flow is taken [this OpenAI repo](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb) 
+Most of the process flow is taken from [this OpenAI repo](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb) 
 
 ----
 
@@ -30,7 +30,7 @@ Note that steps 1,2,3 are done only once offline, and step 4 is what takes place
 
 ----- 
 
-**Usage** (run locally) 
+### Usage (to run locally) 
 
 
 clone repo, and then: 
