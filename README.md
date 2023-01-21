@@ -24,3 +24,19 @@ Basic framework:
     2. find matching documents through vector similarity metrics 
     3. append content of matched documents to prompt to feed into `text-davinci-003` (or `text-davinci-002`, doesn't matter)
 
+
+Note that steps 1,2,3 are done only once offline, and step 4 is what takes place when a new query comes in 
+
+
+----- 
+
+**Usage** (run locally) 
+
+
+clone repo, and then: 
+
+1. generate OpenAI API key
+2. add your OpenAI API key to `streamlit/secrets.toml` like `OPEN_AI_KEY="<KEY>"`
+3. in terminal, `streamlit run app.py` 
+
+
